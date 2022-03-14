@@ -1,0 +1,235 @@
+
+	
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+
+ 
+/*Agregamos margenes inferiores a los parrafos
+p {
+  margin-bottom: 20px;
+}
+*/
+
+.hola{
+    color: red;
+    text-align: center;
+}
+
+.head{
+      width: 100%;
+      
+     
+   }
+ 
+body {margin:0;
+      overflow-x: hidden;
+      
+    }
+
+#fotos{
+ height: 370px;
+}
+#redessociales img{
+    border-radius: 5px;
+    margin: 5px;
+    align-content: center;
+
+}
+#rs div{
+    justify-items: center;
+    
+}
+
+#logo{
+    max-width:100%;
+    height:auto;
+}
+ 
+
+
+#address{
+ font-family: 'Open Sans', sans-serif;
+ font-size:  13px;
+ 
+}
+
+.parrafo{
+    margin-top: 100px;
+    font-size: 26px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu{
+    background-color: black;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section nav a{
+    color: rgb(248, 247, 247);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 10px 15px;
+}
+
+#navbarSupportedContent a:hover { 
+  background-color: red;
+  width: auto;
+}
+
+#portafolio .box {
+display: inline-block;
+text-align: justify;
+margin: 2%;
+overflow: auto;
+padding: 10px;
+position: relative;
+}
+
+#iconos{
+ width:auto;
+height:auto;
+ padding: 10px;
+
+}
+
+.footer{
+    height: 200px;
+    width: auto;
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 100px;
+    
+}
+
+
+@media(max-width:1200px){ 
+ 
+    
+#redessociales img{
+    border-radius: 5px;
+    margin: 5px;
+    align-content: center;
+
+}
+#rs div{
+    justify-items: center;
+    
+}
+
+#logo{
+    max-width:100%;
+    height:auto;
+}
+    section nav a{
+    color: rgb(248, 247, 247);
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2px;
+    padding: 5px 10px;
+
+}
+#fotos{
+ height: 270px;
+}
+    
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.parrafo{
+    margin-top: 100px;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer{
+    height: 50px;
+    width: auto;
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 25px;
+    
+}
+
+#portafolio {
+visibility: collapse;
+display:none;
+}
+    
+
+}
+
+@media(max-width:450px){ 
+ 
+#redessociales img{
+    border-radius: 5px;
+    margin: 5px;
+    align-content: center;
+
+}
+#rs div{
+    justify-items: center;
+    
+}
+
+#logo{
+    max-width:100%;
+    height:auto;
+}
+    section nav a{
+    color: rgb(248, 247, 247);
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 1px;
+    padding: 3px 8px;
+}
+
+#fotos{
+ height: 270px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.parrafo{
+    margin-top: 100px;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer{
+    height: 50px;
+    width: auto;
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 25px;
+    
+}
+
+#portafolio {
+visibility: collapse;
+display:none;
+}
+
+
+}

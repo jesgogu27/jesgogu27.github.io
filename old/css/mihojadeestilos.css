@@ -1,0 +1,40 @@
+
+/* CSS Document */
+
+body {background-color: #000;}
+
+#cabeceraweb {background-color:#0F0;}
+
+#navegacionprincipal 
+{ 
+	background-color:#C00;
+	
+	
+}
+
+#barralateral 
+{
+	background-color:#90f; 
+	float:left; 
+	height: 930px;  
+}
+
+#contenidoprincipal
+{
+	/*background-color:#FF0;*/
+	margin-left: 205px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	background:-moz-linear-gradient(top, #FFF, #03F);
+}
+
+#pieprincipal
+{
+	background-color:#FF8000;
+    clear:both;
+	margin-top: 50px; 
+	}
+
+li{background-color:#FF6;
+	display:inline;}
+	
