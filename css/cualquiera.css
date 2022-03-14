@@ -84,6 +84,8 @@ header{
 
     width: 100% 100%;
 
+    align-content: center;
+
 }
 
 
@@ -95,14 +97,6 @@ header{
 }
 
 
-
-.contenedor{
-
-   align-content: center;
-
-
-
-}
 
 a img  {
 
@@ -269,6 +263,8 @@ a img  {
 
 .submenu{
 
+    display:  inline-flex;
+
     text-align: right;
 
     font-size: 18px;
@@ -277,15 +273,10 @@ a img  {
 
     margin-right: 20px;
 
-    
-
     width: 140px;
-
-    float: bottom;
 
     float: right;
 
-    background-color: darkgray;
 
 }
 
@@ -1432,7 +1423,6 @@ h1{
     
 
 }
-
 
 
 
